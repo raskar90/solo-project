@@ -1,0 +1,41 @@
+.top-bar{
+  position: fixed;
+  width: 85%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: $logo-color;
+  margin: 0;
+
+  p{
+    margin-left: 5px;
+    padding: 15px 15px;
+    border-left: solid 1px $border-color;
+    font-size: 20px;
+    font-family: $font;
+    font-weight: medium;
+    color: $subtitle-color;
+
+    i{
+      font-size: 18px;
+      padding: 0 15px;
+      color: $subtitle-color;
+      font-weight: medium;
+    }
+
+    .click:hover{
+      cursor: pointer;
+    }
+  }
+
+  .top-bar-login{
+    color: $user-name-color;
+  }
+
+  .top-bar-login:hover{
+    cursor: pointer;
+  }
+
+  .top-bar-amount{
+    font-weight: bolder;
+  }
+}

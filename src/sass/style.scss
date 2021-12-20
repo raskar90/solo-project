@@ -1,0 +1,40 @@
+@import "variables";
+@import "normalize";
+@import "sidebar";
+@import "topbar";
+@import "layout";
+@import "generalStatistic";
+@import "linksAndBanners";
+@import "personalData";
+@import "detailStatisticAndPayout";
+@import "modals";
+@import "media";
+
+/* Components */
+//@import "components/form_field";
+
+/* Sections */
+//@import "section/registration_form";
+
+/* Pages / Views */
+//@import "pages/registration";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main-container {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.display-container {
+  width: 85%;
+  margin-left: 15%;
+}
